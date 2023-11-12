@@ -1,0 +1,150 @@
+
+  .questionLayout{
+    display: flex;
+    flex-direction: column;
+    background-color: #bacee0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .flirtingTitle{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  .flirtingTitle div:nth-child(1){
+    display: flex;
+    flex:1;
+  }
+            
+  .questionItemLayout{
+  display: flex;
+  flex: 1;
+  margin: 0px 10px 5px 15px;
+  margin-left: 15%;
+font-size: 90%;
+
+  }              
+  .answerItemLayout{
+  width: 100%;
+  background-color: #fff;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  }
+
+  .ifListLayout{
+    display: flex;
+    background-color: #FFFFFF;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    opacity: 0.5;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 87%;
+    color : black;
+  } 
+
+  
+  /*.profileImg div:nth-child(1){
+    background-color: #cbd6f2;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+  }
+  
+  .profileImg div:nth-child(2){
+    background-color: #cbd6f2;
+    width: 32px;
+    height: 8px;
+    border-radius: 8px 8px 0px 0px;
+  }*/
+
+  .profileImg{ 
+    display: flex;
+    flex-direction: column;
+    width: 35px;
+    height: 35px;
+    background-color: #a1b6e9;
+    border-radius: 15px;
+    margin-left: 4%;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+    }
+
+
+  .chatListLayout{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+  }
+  
+  
+  .chatBox{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 60vw;
+  font-size: 13px;
+  margin: 3px 0px 12px 0px;
+  }
+  
+  .chatBox div:nth-child(1){
+    color: #fff;
+    font-size: 4px;
+    margin-top: 5px;
+  }
+  
+  .chatBox div:nth-child(2){
+    padding: 7px 10px 7px 10px;
+    background-color: #fff;
+    margin-left: -4px;
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  .aChatBox{
+    display: flex;
+    width: 100%;
+    color: #969696;
+    font-size:22px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 25px;
+  }
+  
+  .aChatBox div:nth-child(1){
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .aChatBox div:nth-child(2){
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .answerButten{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-self: center;
+    height: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 0px #ededed;
+    border: 1px solid #ededed;
+    margin: 0px 20px 15px 20px;
+    border-radius: 10px ;
+  }
+
+
+.Form{
+  display: flex;
+  padding: 15px;
+  font-size: 150%;
+}
